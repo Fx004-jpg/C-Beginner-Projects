@@ -34,10 +34,9 @@ int main(){
       printf("-> %.*s", (ptr - buff), buff);
       printf(BRED "%.*s" reset, (int)lenghtOfWord, ptr);
       printf("%s\n", ptr + lenghtOfWord);
-      printf("[Counter]: %d\n", counter);
     }
   }
-  printf("No matches found!");
+  printf("[Counter]: %d", counter);
 
   fclose(fptr);
   return 0;
